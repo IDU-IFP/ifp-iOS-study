@@ -6,7 +6,6 @@ iOS를 공부하고 싶은데 어디서부터 시작을 해야할 지 모르는 
 댓글로 과제 풀이 링크를 제출하세요.
 
 ### 참고 자료
-- []()
-- []()   
-- []()
-- []()  
+- [야곰닷넷](https://yagom.net)
+- [하울의 코딩 채널](https://www.youtube.com/playlist?list=PLmdU__e_zPf-uiDtI84Gv9SxFicrbw4KV)   
+- [zeddios의 기술블로그](https://zeddios.tistory.com)
