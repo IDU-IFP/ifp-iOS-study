@@ -8,7 +8,7 @@ iOS를 공부하고 싶은데 어디서부터 시작을 해야할 지 모르는 
 
 ## Milestone
 - Swift 문법 : [1: Swift 문법(기초개념, 데이터 타입)](https://github.com/IDU-IFP/ifp-iOS-study/issues/2) ~ [6: Swift문법(접근제어, 프로토콜 지향 프로그래밍 – P.O.P.)](https://github.com/IDU-IFP/ifp-iOS-study/issues/7)
-- GitHub와 Xcode 연결하기 : []()
+- [GitHub와 Xcode 연결하기](https://github.com/IDU-IFP/ifp-iOS-study/issues/8)
 - UIKit을 이용한 앱 만들기 :[]()
 - SwiftUI 예제와 함께하는 강좌 : []()
 - API를 활용한 앱 만들기 : []()
