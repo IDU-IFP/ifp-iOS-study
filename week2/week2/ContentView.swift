@@ -27,7 +27,6 @@ struct ContentView: View {
             .fontWeight(.bold)
             .foregroundColor(Color.white)
             .multilineTextAlignment(.center)
-
             .background(LinearGradient(gradient: Gradient(colors: [Color.yellow, Color.green]), startPoint: .leading, endPoint: .trailing))
             .cornerRadius(15)
             // Text
@@ -37,6 +36,24 @@ struct ContentView: View {
                 .italic()
                 .font(.system(size: 40, weight: .semibold, design: .serif ))
         }
+        ZStack{
+            Image("gaori")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 500, height: 500, alignment: .center)
+            Text("Hi, I'm gaori")
+                .position(x: 142, y:550)
+                .font(.system(size: 30, weight: .bold, design: .rounded))
+                .foregroundColor(Color.black)
+                .multilineTextAlignment(.leading)
+
+        }
+        HStack{
+            Image(systemName: "arrowshape.turn.up.right.fill")
+                .font(.system(size: 20))
+            Text("gaori")
+                .font(.system(size: 30, weight: .heavy, design: .serif))
+        }.foregroundColor(Color.green)
     }
 }
 
