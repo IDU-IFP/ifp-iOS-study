@@ -10,12 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
-            // Image
             Image("gaori")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 200, height: 200, alignment: .center)
-            // Button
             Button {
                 print("Hi, clicked button")
             } label: {
@@ -29,7 +27,6 @@ struct ContentView: View {
             .multilineTextAlignment(.center)
             .background(LinearGradient(gradient: Gradient(colors: [Color.yellow, Color.green]), startPoint: .leading, endPoint: .trailing))
             .cornerRadius(15)
-            // Text
             Text("hello, gaori")
                 .multilineTextAlignment(.center)
                 .padding()
@@ -46,7 +43,6 @@ struct ContentView: View {
                 .font(.system(size: 30, weight: .bold, design: .rounded))
                 .foregroundColor(Color.black)
                 .multilineTextAlignment(.leading)
-
         }
         HStack{
             Image(systemName: "arrowshape.turn.up.right.fill")
