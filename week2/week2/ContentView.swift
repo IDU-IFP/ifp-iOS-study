@@ -10,6 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
+            // Image
+            Image("gaori")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 200, height: 200, alignment: .center)
             // Button
             Button {
                 print("Hi, clicked button")
