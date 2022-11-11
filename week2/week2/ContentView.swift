@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         // 이벤트가 발생했을 때의 처리
         Button {
-            print("Hi, cliked button")
+            print("Hi, clicked button")
         // 버튼의 외형
         } label: {
             Image(systemName: "heart")
@@ -25,7 +25,6 @@ struct ContentView: View {
     
         .background(LinearGradient(gradient: Gradient(colors: [Color.yellow, Color.green]), startPoint: .leading, endPoint: .trailing))
         .cornerRadius(15)
-
     }
 }
 
