@@ -50,6 +50,25 @@ struct ContentView: View {
             Text("gaori")
                 .font(.system(size: 30, weight: .heavy, design: .serif))
         }.foregroundColor(Color.green)
+        ScrollView(.horizontal, showsIndicators: false){
+            HStack{
+                Text("gaori")
+
+                    .frame(width: 300, height: 500)
+                    .background(.blue)
+                    .cornerRadius(50)
+                Text("AkO")
+                    .frame(width: 300, height: 500)
+                    .background(.green)
+                    .cornerRadius(70)
+                Text("hamon")
+                    .frame(width: 300, height: 500)
+                    .background(.yellow)
+                    .cornerRadius(100)
+            }.font(.system(size: 20, weight: .bold, design: .rounded))
+                .background(.black)
+        }
+
     }
 }
 
