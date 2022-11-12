@@ -32,6 +32,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		896B089F291F920400CD16B0 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
+		896B08A0291F921A00CD16B0 /* Text */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Text;
+			sourceTree = "<group>";
+		};
+		896B08A1291F922000CD16B0 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		896B08A2291F922700CD16B0 /* List */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
 		89E2CB8A291C93AE00A35D98 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +79,10 @@
 		89E2CB95291C93AE00A35D98 /* week2 */ = {
 			isa = PBXGroup;
 			children = (
+				896B08A2291F922700CD16B0 /* List */,
+				896B08A1291F922000CD16B0 /* Button */,
+				896B08A0291F921A00CD16B0 /* Text */,
+				896B089F291F920400CD16B0 /* Stack */,
 				89E2CB96291C93AE00A35D98 /* week2App.swift */,
 				89E2CB98291C93AE00A35D98 /* ContentView.swift */,
 				89E2CB9A291C93B200A35D98 /* Assets.xcassets */,
