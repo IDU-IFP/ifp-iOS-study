@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		896B08A4291F9C6500CD16B0 /* ListContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B08A3291F9C6500CD16B0 /* ListContentView.swift */; };
+		896B08A8291F9CF000CD16B0 /* ButtonContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B08A7291F9CF000CD16B0 /* ButtonContentView.swift */; };
+		896B08AA291F9E3700CD16B0 /* ScrollViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B08A9291F9E3700CD16B0 /* ScrollViewContentView.swift */; };
+		896B08AC291F9E9F00CD16B0 /* TextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B08AB291F9E9F00CD16B0 /* TextContentView.swift */; };
+		896B08AE291F9EEE00CD16B0 /* ImageContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B08AD291F9EEE00CD16B0 /* ImageContentView.swift */; };
+		896B08B0291F9F0A00CD16B0 /* VStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B08AF291F9F0A00CD16B0 /* VStackContentView.swift */; };
+		896B08B2291F9F3400CD16B0 /* HStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B08B1291F9F3400CD16B0 /* HStackContentView.swift */; };
+		896B08B4291F9F5700CD16B0 /* ZStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B08B3291F9F5700CD16B0 /* ZStackContentView.swift */; };
+		896B08B7291F9FD200CD16B0 /* SectionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896B08B6291F9FD200CD16B0 /* SectionContentView.swift */; };
 		89E2CB97291C93AE00A35D98 /* week2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E2CB96291C93AE00A35D98 /* week2App.swift */; };
 		89E2CB99291C93AE00A35D98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E2CB98291C93AE00A35D98 /* ContentView.swift */; };
 		89E2CB9B291C93B200A35D98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89E2CB9A291C93B200A35D98 /* Assets.xcassets */; };
@@ -14,6 +23,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		896B08A3291F9C6500CD16B0 /* ListContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContentView.swift; sourceTree = "<group>"; };
+		896B08A7291F9CF000CD16B0 /* ButtonContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonContentView.swift; sourceTree = "<group>"; };
+		896B08A9291F9E3700CD16B0 /* ScrollViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewContentView.swift; sourceTree = "<group>"; };
+		896B08AB291F9E9F00CD16B0 /* TextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextContentView.swift; sourceTree = "<group>"; };
+		896B08AD291F9EEE00CD16B0 /* ImageContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContentView.swift; sourceTree = "<group>"; };
+		896B08AF291F9F0A00CD16B0 /* VStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStackContentView.swift; sourceTree = "<group>"; };
+		896B08B1291F9F3400CD16B0 /* HStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStackContentView.swift; sourceTree = "<group>"; };
+		896B08B3291F9F5700CD16B0 /* ZStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackContentView.swift; sourceTree = "<group>"; };
+		896B08B6291F9FD200CD16B0 /* SectionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionContentView.swift; sourceTree = "<group>"; };
 		89E2CB93291C93AE00A35D98 /* week2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E2CB96291C93AE00A35D98 /* week2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week2App.swift; sourceTree = "<group>"; };
 		89E2CB98291C93AE00A35D98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +53,9 @@
 		896B089F291F920400CD16B0 /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				896B08AF291F9F0A00CD16B0 /* VStackContentView.swift */,
+				896B08B1291F9F3400CD16B0 /* HStackContentView.swift */,
+				896B08B3291F9F5700CD16B0 /* ZStackContentView.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -42,6 +63,7 @@
 		896B08A0291F921A00CD16B0 /* Text */ = {
 			isa = PBXGroup;
 			children = (
+				896B08AB291F9E9F00CD16B0 /* TextContentView.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 		896B08A1291F922000CD16B0 /* Button */ = {
 			isa = PBXGroup;
 			children = (
+				896B08A7291F9CF000CD16B0 /* ButtonContentView.swift */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -56,8 +79,33 @@
 		896B08A2291F922700CD16B0 /* List */ = {
 			isa = PBXGroup;
 			children = (
+				896B08A3291F9C6500CD16B0 /* ListContentView.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		896B08A5291F9CC000CD16B0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				896B08AD291F9EEE00CD16B0 /* ImageContentView.swift */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		896B08A6291F9CCF00CD16B0 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				896B08A9291F9E3700CD16B0 /* ScrollViewContentView.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		896B08B5291F9FC500CD16B0 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				896B08B6291F9FD200CD16B0 /* SectionContentView.swift */,
+			);
+			path = Section;
 			sourceTree = "<group>";
 		};
 		89E2CB8A291C93AE00A35D98 = {
@@ -79,6 +127,9 @@
 		89E2CB95291C93AE00A35D98 /* week2 */ = {
 			isa = PBXGroup;
 			children = (
+				896B08B5291F9FC500CD16B0 /* Section */,
+				896B08A6291F9CCF00CD16B0 /* ScrollView */,
+				896B08A5291F9CC000CD16B0 /* Image */,
 				896B08A2291F922700CD16B0 /* List */,
 				896B08A1291F922000CD16B0 /* Button */,
 				896B08A0291F921A00CD16B0 /* Text */,
@@ -170,7 +221,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				89E2CB99291C93AE00A35D98 /* ContentView.swift in Sources */,
+				896B08AC291F9E9F00CD16B0 /* TextContentView.swift in Sources */,
 				89E2CB97291C93AE00A35D98 /* week2App.swift in Sources */,
+				896B08B7291F9FD200CD16B0 /* SectionContentView.swift in Sources */,
+				896B08A8291F9CF000CD16B0 /* ButtonContentView.swift in Sources */,
+				896B08A4291F9C6500CD16B0 /* ListContentView.swift in Sources */,
+				896B08B2291F9F3400CD16B0 /* HStackContentView.swift in Sources */,
+				896B08B0291F9F0A00CD16B0 /* VStackContentView.swift in Sources */,
+				896B08AA291F9E3700CD16B0 /* ScrollViewContentView.swift in Sources */,
+				896B08B4291F9F5700CD16B0 /* ZStackContentView.swift in Sources */,
+				896B08AE291F9EEE00CD16B0 /* ImageContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
