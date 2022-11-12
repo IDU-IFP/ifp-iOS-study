@@ -68,7 +68,12 @@ struct ContentView: View {
             }.font(.system(size: 20, weight: .bold, design: .rounded))
                 .background(.black)
         }
-
+        VStack{
+            Color(.orange)
+            Color(.yellow).edgesIgnoringSafeArea(.top)
+            Color(.gray).edgesIgnoringSafeArea(.bottom)
+            Color(.lightGray).edgesIgnoringSafeArea(.all)
+        }
     }
 }
 
