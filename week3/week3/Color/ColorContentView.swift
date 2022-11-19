@@ -20,6 +20,6 @@ struct ColorContentView: View {
 
 struct ColorContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ColorContentView()
     }
 }
