@@ -10,12 +10,26 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+            Text("LIKE")
+                .font(.title)
+            Spacer()
+            Image(systemName: "heart.fill")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 80, height: 80)
+                .foregroundColor(.red)
+            Spacer()
+            Button {
+                print("clicked heart.")
+            } label: {
+                Text("click")
+                    .padding(10)
+                    .frame(width: 100)
+                    .background(.green)
+                    .foregroundColor(.white)
+                    .cornerRadius(15)
+            }
+        }.padding(100)
     }
 }
 
