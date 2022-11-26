@@ -11,6 +11,7 @@
 		8944F553293253F3001D1EF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8944F552293253F3001D1EF5 /* ContentView.swift */; };
 		8944F555293253F5001D1EF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8944F554293253F5001D1EF5 /* Assets.xcassets */; };
 		8944F558293253F5001D1EF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8944F557293253F5001D1EF5 /* Preview Assets.xcassets */; };
+		89FC670729325B9600628E08 /* darkColorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FC670629325B9600628E08 /* darkColorContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8944F552293253F3001D1EF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8944F554293253F5001D1EF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8944F557293253F5001D1EF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89FC670629325B9600628E08 /* darkColorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = darkColorContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,11 +53,11 @@
 		8944F54F293253F3001D1EF5 /* week4 */ = {
 			isa = PBXGroup;
 			children = (
-				8944F55E29325407001D1EF5 /* darkColor */,
 				8944F550293253F3001D1EF5 /* week4App.swift */,
 				8944F552293253F3001D1EF5 /* ContentView.swift */,
 				8944F554293253F5001D1EF5 /* Assets.xcassets */,
 				8944F556293253F5001D1EF5 /* Preview Content */,
+				89FC670629325B9600628E08 /* darkColorContentView.swift */,
 			);
 			path = week4;
 			sourceTree = "<group>";
@@ -66,13 +68,6 @@
 				8944F557293253F5001D1EF5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		8944F55E29325407001D1EF5 /* darkColor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = darkColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +142,7 @@
 			files = (
 				8944F553293253F3001D1EF5 /* ContentView.swift in Sources */,
 				8944F551293253F3001D1EF5 /* week4App.swift in Sources */,
+				89FC670729325B9600628E08 /* darkColorContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
