@@ -43,7 +43,7 @@ struct total: View {
     }
 }
 
-struct boltApp_Previews: PreviewProvider {
+struct total_Previews: PreviewProvider {
     static var previews: some View {
         total()
     }
