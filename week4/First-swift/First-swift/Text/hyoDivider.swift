@@ -9,7 +9,29 @@ import SwiftUI
 
 struct hyoDivider: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Divider()
+            HStack{
+                Image(systemName: "heart")
+                Divider()
+                    .frame(height: 30)
+                Text("Dongle")
+                Divider()
+                    .frame(height: 30)
+            }
+            Divider()
+                .background(.red)
+                .frame(width: 150)
+            HStack{
+                Image(systemName: "bolt")
+                Divider()
+                    .frame(height: 30)
+                Text("Winter")
+                Divider()
+                    .frame(height: 30)
+            }
+            Divider()
+        }
     }
 }
 
