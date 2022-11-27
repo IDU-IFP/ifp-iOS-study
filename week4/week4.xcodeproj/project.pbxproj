@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560BF21B293324220077137E /* MyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560BF21A293324220077137E /* MyTabView.swift */; };
+		560BF21D293328040077137E /* MyToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560BF21C293328040077137E /* MyToggle.swift */; };
+		560BF21F29332A2C0077137E /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 560BF21E29332A2C0077137E /* MyTextField.swift */; };
 		5639FB6D293307DB008532FA /* week4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB6C293307DB008532FA /* week4App.swift */; };
 		5639FB6F293307DB008532FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB6E293307DB008532FA /* ContentView.swift */; };
 		5639FB71293307DC008532FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5639FB70293307DC008532FA /* Assets.xcassets */; };
@@ -17,6 +20,7 @@
 		5639FB9B29331061008532FA /* MyDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB9A29331061008532FA /* MyDivider.swift */; };
 		5639FB9D29331070008532FA /* MyDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB9C29331070008532FA /* MyDarkMode.swift */; };
 		5639FB9F293315F2008532FA /* MyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB9E293315F2008532FA /* MyModal.swift */; };
+		5639FBA229331B01008532FA /* MyAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FBA129331B01008532FA /* MyAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		560BF21A293324220077137E /* MyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabView.swift; sourceTree = "<group>"; };
+		560BF21C293328040077137E /* MyToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToggle.swift; sourceTree = "<group>"; };
+		560BF21E29332A2C0077137E /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
 		5639FB69293307DB008532FA /* week4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week4.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5639FB6C293307DB008532FA /* week4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week4App.swift; sourceTree = "<group>"; };
 		5639FB6E293307DB008532FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +57,7 @@
 		5639FB9A29331061008532FA /* MyDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDivider.swift; sourceTree = "<group>"; };
 		5639FB9C29331070008532FA /* MyDarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDarkMode.swift; sourceTree = "<group>"; };
 		5639FB9E293315F2008532FA /* MyModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModal.swift; sourceTree = "<group>"; };
+		5639FBA129331B01008532FA /* MyAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +148,10 @@
 				5639FB9A29331061008532FA /* MyDivider.swift */,
 				5639FB9C29331070008532FA /* MyDarkMode.swift */,
 				5639FB9E293315F2008532FA /* MyModal.swift */,
+				5639FBA129331B01008532FA /* MyAlert.swift */,
+				560BF21A293324220077137E /* MyTabView.swift */,
+				560BF21C293328040077137E /* MyToggle.swift */,
+				560BF21E29332A2C0077137E /* MyTextField.swift */,
 			);
 			path = group;
 			sourceTree = "<group>";
@@ -275,10 +287,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5639FB9D29331070008532FA /* MyDarkMode.swift in Sources */,
+				560BF21D293328040077137E /* MyToggle.swift in Sources */,
 				5639FB6F293307DB008532FA /* ContentView.swift in Sources */,
+				560BF21F29332A2C0077137E /* MyTextField.swift in Sources */,
 				5639FB6D293307DB008532FA /* week4App.swift in Sources */,
 				5639FB9B29331061008532FA /* MyDivider.swift in Sources */,
+				5639FBA229331B01008532FA /* MyAlert.swift in Sources */,
 				5639FB9F293315F2008532FA /* MyModal.swift in Sources */,
+				560BF21B293324220077137E /* MyTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
