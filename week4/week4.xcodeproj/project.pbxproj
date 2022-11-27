@@ -14,6 +14,9 @@
 		5639FB7E293307DC008532FA /* week4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB7D293307DC008532FA /* week4Tests.swift */; };
 		5639FB88293307DC008532FA /* week4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB87293307DC008532FA /* week4UITests.swift */; };
 		5639FB8A293307DC008532FA /* week4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB89293307DC008532FA /* week4UITestsLaunchTests.swift */; };
+		5639FB9B29331061008532FA /* MyDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB9A29331061008532FA /* MyDivider.swift */; };
+		5639FB9D29331070008532FA /* MyDarkMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB9C29331070008532FA /* MyDarkMode.swift */; };
+		5639FB9F293315F2008532FA /* MyModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5639FB9E293315F2008532FA /* MyModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		5639FB83293307DC008532FA /* week4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = week4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5639FB87293307DC008532FA /* week4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week4UITests.swift; sourceTree = "<group>"; };
 		5639FB89293307DC008532FA /* week4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week4UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5639FB9A29331061008532FA /* MyDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDivider.swift; sourceTree = "<group>"; };
+		5639FB9C29331070008532FA /* MyDarkMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDarkMode.swift; sourceTree = "<group>"; };
+		5639FB9E293315F2008532FA /* MyModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 			children = (
 				5639FB6C293307DB008532FA /* week4App.swift */,
 				5639FB6E293307DB008532FA /* ContentView.swift */,
+				5639FB972933100E008532FA /* group */,
 				5639FB70293307DC008532FA /* Assets.xcassets */,
 				5639FB72293307DC008532FA /* Preview Content */,
 			);
@@ -125,6 +132,16 @@
 				5639FB89293307DC008532FA /* week4UITestsLaunchTests.swift */,
 			);
 			path = week4UITests;
+			sourceTree = "<group>";
+		};
+		5639FB972933100E008532FA /* group */ = {
+			isa = PBXGroup;
+			children = (
+				5639FB9A29331061008532FA /* MyDivider.swift */,
+				5639FB9C29331070008532FA /* MyDarkMode.swift */,
+				5639FB9E293315F2008532FA /* MyModal.swift */,
+			);
+			path = group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5639FB9D29331070008532FA /* MyDarkMode.swift in Sources */,
 				5639FB6F293307DB008532FA /* ContentView.swift in Sources */,
 				5639FB6D293307DB008532FA /* week4App.swift in Sources */,
+				5639FB9B29331061008532FA /* MyDivider.swift in Sources */,
+				5639FB9F293315F2008532FA /* MyModal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
