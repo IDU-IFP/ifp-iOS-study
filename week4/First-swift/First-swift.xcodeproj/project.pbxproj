@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E47F322293515FC002714B7 /* hyoToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E47F321293515FC002714B7 /* hyoToggle.swift */; };
 		9E4EDE8029325DBF00F12565 /* First_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EDE7F29325DBF00F12565 /* First_swiftApp.swift */; };
 		9E4EDE8229325DBF00F12565 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EDE8129325DBF00F12565 /* ContentView.swift */; };
 		9E4EDE8429325DC000F12565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4EDE8329325DC000F12565 /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E47F321293515FC002714B7 /* hyoToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoToggle.swift; sourceTree = "<group>"; };
 		9E4EDE7C29325DBF00F12565 /* First-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "First-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4EDE7F29325DBF00F12565 /* First_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = First_swiftApp.swift; sourceTree = "<group>"; };
 		9E4EDE8129325DBF00F12565 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E47F320293515E4002714B7 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				9E47F321293515FC002714B7 /* hyoToggle.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		9E4EDE7329325DBF00F12565 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		9E4EDE7E29325DBF00F12565 /* First-swift */ = {
 			isa = PBXGroup;
 			children = (
+				9E47F320293515E4002714B7 /* Button */,
 				9E4EDEB12933297500F12565 /* Views */,
 				9E4EDEAC29325FE100F12565 /* Text */,
 				9E4EDE7F29325DBF00F12565 /* First_swiftApp.swift */,
@@ -289,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4EDE8229325DBF00F12565 /* ContentView.swift in Sources */,
+				9E47F322293515FC002714B7 /* hyoToggle.swift in Sources */,
 				9E4EDEB7293510EC00F12565 /* hyoTabView.swift in Sources */,
 				9E4EDEB529334E4300F12565 /* hyoAlert.swift in Sources */,
 				9E4EDE8029325DBF00F12565 /* First_swiftApp.swift in Sources */,
