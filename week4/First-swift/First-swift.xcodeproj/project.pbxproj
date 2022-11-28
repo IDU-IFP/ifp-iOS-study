@@ -18,6 +18,7 @@
 		9E4EDEB02933182000F12565 /* hyoDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EDEAF2933182000F12565 /* hyoDivider.swift */; };
 		9E4EDEB32933298F00F12565 /* hyoModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EDEB22933298F00F12565 /* hyoModal.swift */; };
 		9E4EDEB529334E4300F12565 /* hyoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EDEB429334E4300F12565 /* hyoAlert.swift */; };
+		9E4EDEB7293510EC00F12565 /* hyoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EDEB6293510EC00F12565 /* hyoTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		9E4EDEAF2933182000F12565 /* hyoDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoDivider.swift; sourceTree = "<group>"; };
 		9E4EDEB22933298F00F12565 /* hyoModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoModal.swift; sourceTree = "<group>"; };
 		9E4EDEB429334E4300F12565 /* hyoAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoAlert.swift; sourceTree = "<group>"; };
+		9E4EDEB6293510EC00F12565 /* hyoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 			children = (
 				9E4EDEB22933298F00F12565 /* hyoModal.swift */,
 				9E4EDEB429334E4300F12565 /* hyoAlert.swift */,
+				9E4EDEB6293510EC00F12565 /* hyoTabView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4EDE8229325DBF00F12565 /* ContentView.swift in Sources */,
+				9E4EDEB7293510EC00F12565 /* hyoTabView.swift in Sources */,
 				9E4EDEB529334E4300F12565 /* hyoAlert.swift in Sources */,
 				9E4EDE8029325DBF00F12565 /* First_swiftApp.swift in Sources */,
 				9E4EDEB02933182000F12565 /* hyoDivider.swift in Sources */,
