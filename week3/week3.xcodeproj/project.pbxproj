@@ -106,11 +106,7 @@
 			children = (
 				5649135E292617A400523E17 /* week3App.swift */,
 				56491360292617A400523E17 /* ContentView.swift */,
-				563C34092929DA4900CE9035 /* stateTest.swift */,
-				5649138A292621FF00523E17 /* colorTest.swift */,
-				563C34072929DA0000CE9035 /* viewTest.swift */,
-				563C340B2929E56600CE9035 /* paddingTest.swift */,
-				563C340D2929E98300CE9035 /* total.swift */,
+				56C250752935EC5C004EB9A1 /* group */,
 				56491362292617A500523E17 /* Assets.xcassets */,
 				56491364292617A500523E17 /* Preview Content */,
 			);
@@ -140,6 +136,18 @@
 				5649137B292617A500523E17 /* week3UITestsLaunchTests.swift */,
 			);
 			path = week3UITests;
+			sourceTree = "<group>";
+		};
+		56C250752935EC5C004EB9A1 /* group */ = {
+			isa = PBXGroup;
+			children = (
+				563C34092929DA4900CE9035 /* stateTest.swift */,
+				5649138A292621FF00523E17 /* colorTest.swift */,
+				563C34072929DA0000CE9035 /* viewTest.swift */,
+				563C340B2929E56600CE9035 /* paddingTest.swift */,
+				563C340D2929E98300CE9035 /* total.swift */,
+			);
+			path = group;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

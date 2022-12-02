@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct colorTest: View {
     var body: some View {
         Color(.orange)
             .clipShape(Circle())
@@ -17,6 +17,6 @@ struct SwiftUIView: View {
 
 struct SwiftUIView_Previews: PreviewProvider {
     static var previews: some View {
-        SwiftUIView()
+        colorTest()
     }
 }
