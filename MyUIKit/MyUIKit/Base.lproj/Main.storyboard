@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ygE-rA-DPh">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyUIKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="05P-tk-of9" userLabel="green">
+                                <rect key="frame" x="30" y="296" width="370" height="128"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lKg-Nk-B5X" userLabel="blue">
+                                <rect key="frame" x="100" y="457" width="300" height="128"/>
+                                <color key="backgroundColor" systemColor="systemCyanColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I5Y-Ye-Pm6" userLabel="orange">
+                                <rect key="frame" x="170" y="620" width="230" height="128"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="05P-tk-of9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="0gv-VA-Vp6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="05P-tk-of9" secondAttribute="trailing" constant="30" id="BlG-wF-GTJ"/>
+                            <constraint firstItem="I5Y-Ye-Pm6" firstAttribute="trailing" secondItem="lKg-Nk-B5X" secondAttribute="trailing" id="Cso-gO-gr9"/>
+                            <constraint firstItem="05P-tk-of9" firstAttribute="trailing" secondItem="lKg-Nk-B5X" secondAttribute="trailing" id="ELn-ES-0ho"/>
+                            <constraint firstItem="I5Y-Ye-Pm6" firstAttribute="leading" secondItem="lKg-Nk-B5X" secondAttribute="leading" constant="70" id="JiS-eC-Fe5"/>
+                            <constraint firstItem="lKg-Nk-B5X" firstAttribute="leading" secondItem="05P-tk-of9" secondAttribute="leading" constant="70" id="j0u-b5-bXT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.86046511627907" y="3.8626609442060089"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hNV-Ee-GdB">
+            <objects>
+                <viewController id="3X9-ch-neL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Xts-PU-CS3">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="zrK-Hm-Qwp">
+                                <rect key="frame" x="0.0" y="59" width="430" height="873"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="p1e-HW-H4c"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zrK-Hm-Qwp" firstAttribute="top" secondItem="p1e-HW-H4c" secondAttribute="top" id="Drc-wN-g85"/>
+                            <constraint firstAttribute="bottom" secondItem="zrK-Hm-Qwp" secondAttribute="bottom" id="rMn-92-Se4"/>
+                            <constraint firstItem="zrK-Hm-Qwp" firstAttribute="leading" secondItem="p1e-HW-H4c" secondAttribute="leading" id="wOD-vt-pnT"/>
+                            <constraint firstItem="p1e-HW-H4c" firstAttribute="trailing" secondItem="zrK-Hm-Qwp" secondAttribute="trailing" id="z7K-J7-qcT"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OUq-DO-WUR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101" y="693"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="WL6-fp-8aZ">
+            <objects>
+                <viewController id="Yju-s0-wJP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KoD-9O-Mee">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YiW-cJ-qRK">
+                                <rect key="frame" x="0.0" y="59" width="430" height="873"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jIR-3e-aoY">
+                                        <rect key="frame" x="0.0" y="0.0" width="430" height="1075"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OlQ-8q-sCt">
+                                                <rect key="frame" x="10" y="10" width="410" height="1055"/>
+                                                <mutableString key="text">What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+
+
+Where does it come from?
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="OlQ-8q-sCt" firstAttribute="top" secondItem="jIR-3e-aoY" secondAttribute="top" constant="10" id="3Ze-pj-e1z"/>
+                                            <constraint firstAttribute="bottom" secondItem="OlQ-8q-sCt" secondAttribute="bottom" constant="10" id="M83-GA-2fV"/>
+                                            <constraint firstAttribute="trailing" secondItem="OlQ-8q-sCt" secondAttribute="trailing" constant="10" id="QTh-PZ-1mX"/>
+                                            <constraint firstItem="OlQ-8q-sCt" firstAttribute="leading" secondItem="jIR-3e-aoY" secondAttribute="leading" constant="10" id="ccg-HI-Gmg"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="jIR-3e-aoY" firstAttribute="leading" secondItem="nPG-Cg-wSs" secondAttribute="leading" id="4sz-wo-bI9"/>
+                                    <constraint firstItem="jIR-3e-aoY" firstAttribute="trailing" secondItem="nPG-Cg-wSs" secondAttribute="trailing" id="BNX-1q-ZBh"/>
+                                    <constraint firstItem="jIR-3e-aoY" firstAttribute="bottom" secondItem="nPG-Cg-wSs" secondAttribute="bottom" id="SAT-Db-aZ3"/>
+                                    <constraint firstItem="jIR-3e-aoY" firstAttribute="top" secondItem="nPG-Cg-wSs" secondAttribute="top" id="deZ-Be-58E"/>
+                                    <constraint firstItem="jIR-3e-aoY" firstAttribute="width" secondItem="bln-IK-LmZ" secondAttribute="width" id="fot-j6-XLe"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="nPG-Cg-wSs"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="bln-IK-LmZ"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V2m-DF-Nap"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YiW-cJ-qRK" firstAttribute="top" secondItem="V2m-DF-Nap" secondAttribute="top" id="S1C-3d-BuD"/>
+                            <constraint firstItem="YiW-cJ-qRK" firstAttribute="leading" secondItem="V2m-DF-Nap" secondAttribute="leading" id="Xtv-df-oGZ"/>
+                            <constraint firstItem="V2m-DF-Nap" firstAttribute="trailing" secondItem="YiW-cJ-qRK" secondAttribute="trailing" id="uqj-UN-MZx"/>
+                            <constraint firstAttribute="bottom" secondItem="YiW-cJ-qRK" secondAttribute="bottom" id="vtg-QX-XXo"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VrW-Sb-huM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="693"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oMf-i5-j5q">
+            <objects>
+                <viewController id="HF5-6w-Bm3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EcY-ds-Ug4">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ey-tO-Gvh">
+                                <rect key="frame" x="94" y="137" width="242" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제목" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAl-pq-RuU">
+                                        <rect key="frame" x="8" y="8" width="44" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mA-1K-pdq">
+                                        <rect key="frame" x="8" y="37" width="226" height="255"/>
+                                        <string key="text">내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용내용</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                <constraints>
+                                    <constraint firstItem="vAl-pq-RuU" firstAttribute="leading" secondItem="6Ey-tO-Gvh" secondAttribute="leading" constant="8" id="0BI-kT-qPj"/>
+                                    <constraint firstAttribute="trailing" secondItem="3mA-1K-pdq" secondAttribute="trailing" constant="8" id="3ZE-Ty-2cb"/>
+                                    <constraint firstItem="3mA-1K-pdq" firstAttribute="top" secondItem="vAl-pq-RuU" secondAttribute="bottom" constant="8" id="4h0-sz-11p"/>
+                                    <constraint firstItem="vAl-pq-RuU" firstAttribute="top" secondItem="6Ey-tO-Gvh" secondAttribute="top" constant="8" id="6ya-Oh-9VK"/>
+                                    <constraint firstAttribute="bottom" secondItem="3mA-1K-pdq" secondAttribute="bottom" constant="8" id="NgC-ga-vJk"/>
+                                    <constraint firstItem="3mA-1K-pdq" firstAttribute="leading" secondItem="6Ey-tO-Gvh" secondAttribute="leading" constant="8" id="Qbk-WL-qpM"/>
+                                    <constraint firstAttribute="trailing" secondItem="vAl-pq-RuU" secondAttribute="trailing" constant="190" id="fbh-Xj-TRn"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="300" id="wSx-hu-4XO"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="fAx-VA-ZI9"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Ey-tO-Gvh" firstAttribute="top" secondItem="fAx-VA-ZI9" secondAttribute="top" constant="78" id="59x-nB-BNM"/>
+                            <constraint firstItem="fAx-VA-ZI9" firstAttribute="trailing" secondItem="6Ey-tO-Gvh" secondAttribute="trailing" constant="94" id="d5C-9W-egB"/>
+                            <constraint firstItem="6Ey-tO-Gvh" firstAttribute="leading" secondItem="fAx-VA-ZI9" secondAttribute="leading" constant="94" id="kE6-CB-94b"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V3o-xb-4DE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="945" y="3"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="cb4-FO-ngz">
+            <objects>
+                <viewController id="bcD-B1-JGD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oYc-mU-Fsc">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="400" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ai7-FR-bQt">
+                                <rect key="frame" x="328.66666666666669" y="159" width="41.333333333333314" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labelasdfafd" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N0L-2z-xRh">
+                                <rect key="frame" x="59.999999999999986" y="159" width="238.66666666666663" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ㅁㅇㄴㅇㅁㅈㅇㅁㅇㅇ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUw-AC-gKb">
+                                <rect key="frame" x="200.66666666666663" y="243" width="147.33333333333337" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="100" text="Labelㅁㅁㅁㅇㅈㅇㅁ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RI3-za-VKL">
+                                <rect key="frame" x="69" y="243" width="31.666666666666671" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OUe-6y-dJu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="RI3-za-VKL" firstAttribute="top" secondItem="N0L-2z-xRh" secondAttribute="bottom" constant="63" id="DKH-ki-Dnh"/>
+                            <constraint firstItem="OUe-6y-dJu" firstAttribute="trailing" secondItem="vUw-AC-gKb" secondAttribute="trailing" constant="82" id="DUN-gI-E8n"/>
+                            <constraint firstItem="vUw-AC-gKb" firstAttribute="top" secondItem="RI3-za-VKL" secondAttribute="top" id="VBx-oB-cld"/>
+                            <constraint firstItem="N0L-2z-xRh" firstAttribute="top" secondItem="OUe-6y-dJu" secondAttribute="top" constant="100" id="Wf3-OJ-FWt"/>
+                            <constraint firstItem="vUw-AC-gKb" firstAttribute="leading" secondItem="RI3-za-VKL" secondAttribute="trailing" constant="100" id="b2S-xB-d7H"/>
+                            <constraint firstItem="N0L-2z-xRh" firstAttribute="top" secondItem="Ai7-FR-bQt" secondAttribute="top" id="ge0-VH-gmo"/>
+                            <constraint firstItem="Ai7-FR-bQt" firstAttribute="leading" secondItem="N0L-2z-xRh" secondAttribute="trailing" constant="30" id="iaS-7A-ja3"/>
+                            <constraint firstItem="OUe-6y-dJu" firstAttribute="trailing" secondItem="Ai7-FR-bQt" secondAttribute="trailing" constant="60" id="jt6-dT-Kb8"/>
+                            <constraint firstItem="N0L-2z-xRh" firstAttribute="leading" secondItem="OUe-6y-dJu" secondAttribute="leading" constant="60" id="nQg-tq-NOz"/>
+                            <constraint firstItem="RI3-za-VKL" firstAttribute="leading" secondItem="OUe-6y-dJu" secondAttribute="leading" constant="69" id="tV3-J7-jIc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mVC-ok-UBX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1922" y="3"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="IBf-7m-qnp">
+            <objects>
+                <viewController id="ygE-rA-DPh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Z02-G6-YU8">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mwV-b5-9aE">
+                                <rect key="frame" x="75" y="209" width="280" height="480"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ew4-Vn-LJN">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="480"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zHn-4P-F0w" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="UhD-ce-I9M"/>
+                                                    <constraint firstAttribute="height" constant="80" id="guP-SO-yMw"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="1">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2V8-SL-b12" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="100" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="iFb-2P-3Wk"/>
+                                                    <constraint firstAttribute="height" constant="80" id="jB7-2A-oWv"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="4">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMn-Jd-eiU" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="200" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="dul-vc-z3R"/>
+                                                    <constraint firstAttribute="width" constant="80" id="wN2-bL-LjH"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="7">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YU9-8h-Df0" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="300" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="c6Y-00-G8J"/>
+                                                    <constraint firstAttribute="height" constant="80" id="yba-s4-PBC"/>
+                                                </constraints>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="asterisk" catalog="system"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQL-l8-y6y">
+                                                <rect key="frame" x="0.0" y="400" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="mlR-ca-Fzs">
+                                        <rect key="frame" x="100" y="0.0" width="80" height="480"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b56-Wr-hWv" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="2kh-bZ-g3G"/>
+                                                    <constraint firstAttribute="height" constant="80" id="3wL-j8-M6B"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="2">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iRF-lL-jPj" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="100" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="NZu-2x-oRx"/>
+                                                    <constraint firstAttribute="height" constant="80" id="nue-hl-xgP"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="5">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GrZ-tX-8yz" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="200" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="86f-Kx-F5T"/>
+                                                    <constraint firstAttribute="height" constant="80" id="ezR-8w-WsO"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="8">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYF-xH-Jt0" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="300" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="751-I1-eQP"/>
+                                                    <constraint firstAttribute="width" constant="80" id="Gxc-sj-zRs"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="0">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XCD-Um-AbR" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="400" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="3DK-gC-kwx"/>
+                                                    <constraint firstAttribute="width" constant="80" id="UAS-3N-5Jj"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" image="phone.fill" catalog="system">
+                                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="rmj-Sj-1Nq">
+                                        <rect key="frame" x="200" y="0.0" width="80" height="480"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ksr-hK-Tnz" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="8cp-YY-reB"/>
+                                                    <constraint firstAttribute="width" constant="80" id="R5T-v9-Wgc"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="3">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfk-Ov-OaN" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="100" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="BY5-dg-IeI"/>
+                                                    <constraint firstAttribute="height" constant="80" id="qKs-K9-T95"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="6">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQO-wA-m1s" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="200" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="80" id="KT9-Gu-2to"/>
+                                                    <constraint firstAttribute="width" constant="80" id="pWa-nU-Cfk"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="9">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eJH-Zh-ylF" customClass="CircleButton" customModule="MyUIKit" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="300" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="80" id="8su-i2-KDo"/>
+                                                    <constraint firstAttribute="height" constant="80" id="Erx-OI-LWV"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="#">
+                                                    <fontDescription key="titleFontDescription" style="UICTFontTextStyleTitle0"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="40"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egI-Hg-92h">
+                                                <rect key="frame" x="0.0" y="400" width="80" height="80"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="전화번호를 입력해주세요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KJG-Hh-f0y">
+                                <rect key="frame" x="75" y="143.33333333333334" width="280" height="40.666666666666657"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9Is-e9-CyM"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mwV-b5-9aE" firstAttribute="top" secondItem="KJG-Hh-f0y" secondAttribute="bottom" constant="25" id="0Kb-G5-PF2"/>
+                            <constraint firstItem="KJG-Hh-f0y" firstAttribute="leading" secondItem="mwV-b5-9aE" secondAttribute="leading" id="4CZ-YZ-0n5"/>
+                            <constraint firstItem="KJG-Hh-f0y" firstAttribute="trailing" secondItem="mwV-b5-9aE" secondAttribute="trailing" id="8bp-AA-hAa"/>
+                            <constraint firstItem="mwV-b5-9aE" firstAttribute="top" secondItem="9Is-e9-CyM" secondAttribute="top" constant="150" id="Vlc-QF-8ri"/>
+                            <constraint firstItem="mwV-b5-9aE" firstAttribute="centerX" secondItem="Z02-G6-YU8" secondAttribute="centerX" id="Yde-Z4-Vm7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q1W-u9-YkA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1900.9345794392523" y="692.65658747300222"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="2V8-SL-b12">
+            <size key="intrinsicContentSize" width="45" height="54.666666666666664"/>
+        </designable>
+        <designable name="GrZ-tX-8yz">
+            <size key="intrinsicContentSize" width="45" height="54.666666666666664"/>
+        </designable>
+        <designable name="Ksr-hK-Tnz">
+            <size key="intrinsicContentSize" width="44.666666666666664" height="54.666666666666664"/>
+        </designable>
+        <designable name="UQO-wA-m1s">
+            <size key="intrinsicContentSize" width="45.666666666666664" height="54.666666666666664"/>
+        </designable>
+        <designable name="Wfk-Ov-OaN">
+            <size key="intrinsicContentSize" width="45.666666666666664" height="54.666666666666664"/>
+        </designable>
+        <designable name="XCD-Um-AbR">
+            <size key="intrinsicContentSize" width="67.666666666666671" height="50"/>
+        </designable>
+        <designable name="YU9-8h-Df0">
+            <size key="intrinsicContentSize" width="48.666666666666664" height="34.333333333333336"/>
+        </designable>
+        <designable name="b56-Wr-hWv">
+            <size key="intrinsicContentSize" width="43.666666666666664" height="54.666666666666664"/>
+        </designable>
+        <designable name="cMn-Jd-eiU">
+            <size key="intrinsicContentSize" width="43" height="54.666666666666664"/>
+        </designable>
+        <designable name="eJH-Zh-ylF">
+            <size key="intrinsicContentSize" width="45" height="54.666666666666664"/>
+        </designable>
+        <designable name="iRF-lL-jPj">
+            <size key="intrinsicContentSize" width="44.333333333333336" height="54.666666666666664"/>
+        </designable>
+        <designable name="yYF-xH-Jt0">
+            <size key="intrinsicContentSize" width="45.333333333333336" height="54.666666666666664"/>
+        </designable>
+        <designable name="zHn-4P-F0w">
+            <size key="intrinsicContentSize" width="39.666666666666664" height="54.666666666666664"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="asterisk" catalog="system" width="125" height="128"/>
+        <image name="phone.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemCyanColor">
+            <color red="0.19607843137254902" green="0.67843137254901964" blue="0.90196078431372551" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
