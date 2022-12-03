@@ -12,6 +12,11 @@
 		8921168A293B1531008191E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89211689293B1531008191E6 /* Assets.xcassets */; };
 		8921168D293B1531008191E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8921168C293B1531008191E6 /* Preview Assets.xcassets */; };
 		89211694293B182D008191E6 /* SecuredFieldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89211693293B182D008191E6 /* SecuredFieldContentView.swift */; };
+		89211696293B1F28008191E6 /* progressViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89211695293B1F28008191E6 /* progressViewContentView.swift */; };
+		89211698293B2093008191E6 /* LabelTextContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89211697293B2093008191E6 /* LabelTextContentView.swift */; };
+		8921169A293B2392008191E6 /* NavigationContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89211699293B2392008191E6 /* NavigationContentView.swift */; };
+		8921169C293B2501008191E6 /* NavigationStackContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921169B293B2501008191E6 /* NavigationStackContentView.swift */; };
+		8921169E293B27CE008191E6 /* OnAppearContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8921169D293B27CE008191E6 /* OnAppearContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +26,11 @@
 		89211689293B1531008191E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8921168C293B1531008191E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		89211693293B182D008191E6 /* SecuredFieldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecuredFieldContentView.swift; sourceTree = "<group>"; };
+		89211695293B1F28008191E6 /* progressViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progressViewContentView.swift; sourceTree = "<group>"; };
+		89211697293B2093008191E6 /* LabelTextContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelTextContentView.swift; sourceTree = "<group>"; };
+		89211699293B2392008191E6 /* NavigationContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationContentView.swift; sourceTree = "<group>"; };
+		8921169B293B2501008191E6 /* NavigationStackContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackContentView.swift; sourceTree = "<group>"; };
+		8921169D293B27CE008191E6 /* OnAppearContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnAppearContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,11 @@
 		89211679293B1530008191E6 = {
 			isa = PBXGroup;
 			children = (
+				8921169D293B27CE008191E6 /* OnAppearContentView.swift */,
+				8921169B293B2501008191E6 /* NavigationStackContentView.swift */,
+				89211699293B2392008191E6 /* NavigationContentView.swift */,
+				89211697293B2093008191E6 /* LabelTextContentView.swift */,
+				89211695293B1F28008191E6 /* progressViewContentView.swift */,
 				89211693293B182D008191E6 /* SecuredFieldContentView.swift */,
 				89211684293B1530008191E6 /* week5 */,
 				89211683293B1530008191E6 /* Products */,
@@ -140,9 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8921169E293B27CE008191E6 /* OnAppearContentView.swift in Sources */,
+				8921169A293B2392008191E6 /* NavigationContentView.swift in Sources */,
 				89211694293B182D008191E6 /* SecuredFieldContentView.swift in Sources */,
 				89211688293B1530008191E6 /* ContentView.swift in Sources */,
+				8921169C293B2501008191E6 /* NavigationStackContentView.swift in Sources */,
+				89211696293B1F28008191E6 /* progressViewContentView.swift in Sources */,
 				89211686293B1530008191E6 /* week5App.swift in Sources */,
+				89211698293B2093008191E6 /* LabelTextContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
