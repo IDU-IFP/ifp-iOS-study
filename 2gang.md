@@ -8,3 +8,6 @@ iOS 4주차 과제 : https://rud0503.tistory.com/84
 iOS 5주차 과제 : https://rud0503.tistory.com/90
                 https://rud0503.tistory.com/91
                 https://rud0503.tistory.com/92
+iOS 6주차 과제 : https://rud0503.tistory.com/97
+                https://rud0503.tistory.com/98
+                https://rud0503.tistory.com/99
