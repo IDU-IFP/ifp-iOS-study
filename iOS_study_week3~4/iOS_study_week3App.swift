@@ -10,7 +10,14 @@ struct iOS_study_week3App: App {
             //StateCotentView()
             //paddingContentView()
             //frameContentView()
-            makeContentView()
+            //makeContentView()
+            //MyDarkColor()
+            //MyDivider()
+            //MyModal()
+            //MyAlert()
+            //MyTabView()
+            //MyToggle()
+            MyTextField()
         }
     }
 }
