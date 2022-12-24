@@ -22,6 +22,7 @@
 		9E4EDEB529334E4300F12565 /* hyoAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EDEB429334E4300F12565 /* hyoAlert.swift */; };
 		9E4EDEB7293510EC00F12565 /* hyoTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4EDEB6293510EC00F12565 /* hyoTabView.swift */; };
 		9E4FA79829574FCE0081147E /* hyoSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FA79729574FCE0081147E /* hyoSecureField.swift */; };
+		9E4FA79A295753520081147E /* hyoProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4FA799295753520081147E /* hyoProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		9E4EDEB429334E4300F12565 /* hyoAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoAlert.swift; sourceTree = "<group>"; };
 		9E4EDEB6293510EC00F12565 /* hyoTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoTabView.swift; sourceTree = "<group>"; };
 		9E4FA79729574FCE0081147E /* hyoSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoSecureField.swift; sourceTree = "<group>"; };
+		9E4FA799295753520081147E /* hyoProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hyoProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +173,7 @@
 				9E4EDEB22933298F00F12565 /* hyoModal.swift */,
 				9E4EDEB429334E4300F12565 /* hyoAlert.swift */,
 				9E4EDEB6293510EC00F12565 /* hyoTabView.swift */,
+				9E4FA799295753520081147E /* hyoProgress.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E4EDE8229325DBF00F12565 /* ContentView.swift in Sources */,
+				9E4FA79A295753520081147E /* hyoProgress.swift in Sources */,
 				9E47F322293515FC002714B7 /* hyoToggle.swift in Sources */,
 				9E4EDEB7293510EC00F12565 /* hyoTabView.swift in Sources */,
 				9E47F32629351A8F002714B7 /* hyoTextField.swift in Sources */,
