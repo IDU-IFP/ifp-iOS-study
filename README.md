@@ -12,7 +12,7 @@ iOS를 공부하고 싶은데 어디서부터 시작을 해야할 지 모르는 
 - UIKit을 이용한 앱 만들기 :[]()
 - SwiftUI 예제와 함께하는 강좌 : []()
 - API를 활용한 앱 만들기 : []()
-- MVVM 디자인 패턴이란? : []()
+- MVVM 디자인 패턴이란? : [MVVM 디자인 패턴 in iOS](https://github.com/IDU-IFP/ifp-iOS-study/issues/10)
 - 앱스토어에 앱 출시하기 : []()
 
 ## 참고 자료
